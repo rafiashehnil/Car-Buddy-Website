@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verified Garages</title>
+  <link rel="stylesheet" href="main.css">
+  <!-- box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <i class='bx bx-car'></i>
+      <div class="logo_name">
+        Car Buddy
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a href="admin.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">
+            Dashboard
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-circle'></i>
+          <span class="links_name">
+            Profile
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="garages.html">
+          <i class='bx bx-home'></i>
+          <span class="links_name">
+            Garages
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="customer.html">
+          <i class='bx bx-user'></i>
+          <span class="links_name">
+            Registered Customer
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-credit-card'></i>
+          <span class="links_name">
+            Sales
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-dollar' ></i>
+          <span class="links_name">
+            Earning
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-user-plus'></i>
+          <span class="links_name">
+            Visitors
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cart-alt'></i>
+          <span class="links_name">
+            Order
+          </span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="#">
+          <i class='bx bx-heart'></i>
+          <span class="links_name">
+            Saved
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">
+            Setting
+          </span>
+        </a>
+      </li>
+      <li class="login">
+        <a href="index.html">
+          <span class="links_name login_out">
+            Login Out
+          </span>
+          <i class='bx bx-log-out' id="log_out"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- End Sideber -->
+  <section class="home_section">
+    <div class="topbar">
+      <div class="toggle">
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <div class="search_wrapper">
+        <label>
+          <span>
+            <i class='bx bx-search'></i>
+          </span>
+          <input type="search" placeholder="Search...">
+        </label>
+      </div>
+      <div class="user_wrapper">
+        <img src="user.jpg" alt="">
+      </div>
+    </div>
+    <!-- End Top Bar -->
+    <div class="card-boxes">
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">1k</div>
+          <div class="box_topic">Customers</div>
+        </div>
+        <i class='bx bx-user'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">150</div>
+          <div class="box_topic">Garage Owners</div>
+        </div>
+        <i class='bx bxs-home'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">100</div>
+          <div class="box_topic">Verified Mechanics</div>
+        </div>
+        <i class='bx bxs-user'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">100k</div>
+          <div class="box_topic">Amount Receive</div>
+        </div>
+        <i class='bx bxs-receipt'></i>
+      </div>
+    </div>
+    <!-- End Card Boxs -->
+    <div class="details">
+      <div class="recent_project">
+        <div class="card_header">
+          <h2>Enlisted Garages</h2>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td><b>Garage Name</b></td>
+              <td><b>Address of  Garages</b></td>
+              <td><b>Ratings</b></td>
+              <td><b>Number of Members</b></td>
+              <td><b>Verified Garages Information</b></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Auto Mobiles</td>
+              <td>Block B, Road 13<br>Bashundhara Model Town</td>
+              <td>
+                <span class="badge bg_seccuss">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                    <img src="avatar-5.jpg" alt="">
+                  </span>
+                  <span class="img_group">
+                    <img src="avatar-4.jpg" alt="">
+                  </span>
+                  
+                  <span class="img_group">
+                    <span class="initial">+20</span>
+                  </span>
+                
+              </td>
+              <td> 
+                <span class="badge bg_worning">
+                    Has Experties on cars and bikes<br>for over 20 years.
+                  </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Navana</td>
+              <td>House 08, road 13, sector 11<br> Uttara, Dhaka</td>
+              <td>
+                <span class="badge bg_seccuss">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                    <img src="avatar-3.jpg" alt="">
+                  </span>
+                  <span class="img_group">
+                    <img src="avatar-4.jpg" alt="">
+                  </span>
+                  
+                  <span class="img_group">
+                    <span class="initial">+50</span>
+                  </span>
+                <td><span class="badge bg_worning">
+                    Has Experties on cars and bikes<br>for over 20 years.
+                  </span> 
+                   
+                  </td>
+              </td>
+            </tr>
+            <tr>
+              <td>Tasin Garage ltd</td>
+              <td>house 48, Block C <br>Tongi Bazar</td>
+              <td>
+                <span class="badge bg_info">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="avatar-5.jpg" alt="">
+                  </span>
+                  <span class="img_group">
+                    <img src="avatar-3.jpg" alt="">
+                  </span>
+                  <span class="img_group">
+                    <img src="avatar-4.jpg" alt="">
+                  </span>
+                  
+                  <span class="img_group">
+                    <span class="initial">+50</span>
+                  </span>
+                
+              </td>
+              <td> 
+                <span class="badge bg_worning">
+                    Has Experties on cars and bikes<br>for over 10 years.
+                  </span>
+              </td>
+            </tr>
+            <tr>
+              <td>YourCar Ltd</td>
+              <td>House 86, Block D<br> Bashundhara Model town </td>
+              <td>
+                <span class="badge bg_seccuss">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                  
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                    <img src="avatar-3.jpg" alt="">
+                  </span>
+                  <span class="img_group">
+                    <img src="avatar-4.jpg" alt="">
+                  </span>
+                  
+                  <span class="img_group">
+                    <span class="initial">+10</span>
+                  </span>
+                <td> 
+                    <span class="badge bg_worning">
+                        Has Experties on cars and bikes<br>for over 2 years.
+                      </span>
+                  </td>
+              </td>
+            </tr>
+            <tr>
+              <td>Auto-mobiles</td>
+              <td>House 07, Road 15<br>Palli Bazar</td>
+              <td>
+                <span class="badge bg_danger">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                    <img src="avatar-4.jpg" alt="">
+                  </span>
+                  <span class="img_group">
+                    <img src="avatar-5.jpg" alt="">
+                    </span>
+                    <span class="img_group">
+                      <img src="avatar-3.jpg" alt="">
+                    </span>
+                    <span class="img_group">
+                      <img src="avatar-2.jpg" alt="">
+                    </span>
+                    
+                    <span class="img_group">
+                      <span class="initial">+25</span>
+                    </span>
+              </td>
+              <td>
+                <span class="badge bg_danger">
+                    Has Experties on cars and bikes<br>for over 2 years.
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Grand theft Auto</td>
+              <td>House 2, Road 3, Block C <Br>Mirpur 2, Dhaka</td>
+              <td>
+                <span class="badge bg_info">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                  
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                    <img src="avatar-4.jpg" alt="">
+                  </span>
+                  <span class="img_group">
+                    <img src="avatar-5.jpg" alt="">
+                    </span>
+                    <span class="img_group">
+                      <img src="avatar-3.jpg" alt="">
+                    </span>
+                    <span class="img_group">
+                      <span class="initial">+25</span>
+                    </span>
+              </td>
+              <td> 
+                <span class="badge bg_worning">
+                    Has Experties on cars and bikes<br>for over 12 years.
+                  </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="recent_customers">
+        <div class="card_header">
+          <h2>New Garage Requests </h2>
+        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <div class="info_img">
+                   <img src="garagelogo.png" alt=""> 
+                  
+                </div>
+              </td>
+              <td>
+                <h4>Combined motor works</h4>
+                <p>combinedmotors@gmail.com</p>
+                
+                <span class="badge bg_seccuss">
+                    Confirm
+               </span>
+               &nbsp;
+               <span class="badge bg_danger">
+                Delete
+               </span>
+               <span class="badge bg_worning">
+                Check Details
+               </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="garagelogo.png" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Nippon Car Service</h4>
+                <p>nipponcars@gmail.com</p>
+                
+                <span class="badge bg_seccuss">
+                    Confirm
+               </span>
+               &nbsp;
+               <span class="badge bg_danger">
+                Delete
+               </span>
+               <span class="badge bg_worning">
+                Check Details
+               </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="garagelogo.png" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Wahab Motos</h4>
+                <p>wahabmotors@gmail.com</p>
+                
+                <span class="badge bg_seccuss">
+                    Confirm
+               </span>
+               &nbsp;
+               <span class="badge bg_danger">
+                Delete
+               </span>
+               <span class="badge bg_worning">
+                Check Details
+               </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="garagelogo.png" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Bangla Motors</h4>
+                <p>banglamotors@gmail.com</p>
+                
+                <span class="badge bg_seccuss">
+                    Confirm
+               </span>
+               &nbsp;
+               <span class="badge bg_danger">
+                Delete
+               </span>
+               <span class="badge bg_worning">
+                Check Details
+               </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="garagelogo.png" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Willams Harris</h4>
+                <p>Willams@gmail.com</p>
+                
+                <span class="badge bg_seccuss">
+                    Confirm
+               </span>
+               &nbsp;
+               <span class="badge bg_danger">
+                Delete
+               </span>
+               <span class="badge bg_worning">
+                Check Details
+               </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="garagelogo.png" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>HighWay Auto Car shop</h4>
+                <p>highway@gmail.com</p>
+                
+                <span class="badge bg_seccuss">
+                     Confirm
+                </span>
+                &nbsp;
+                <span class="badge bg_danger">
+                 Delete
+                </span>
+                <span class="badge bg_worning">
+                    Check Details
+                   </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("open");
+      // call function
+      changeBtn();
+    });
+
+    function changeBtn() {
+      if(sidebar.classList.contains("open")) {
+        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+      } else {
+        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+      }
+    }
+  </script>
+</body>
+</html>

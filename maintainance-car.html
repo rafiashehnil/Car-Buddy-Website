@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE==edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance Service</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');">
+
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="logo.png" alt=""></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+        <li><a href="userpage.html">Home</a></li>
+        <li><a href="btnservices.html">Service</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+    
+    </header>
+    <div class="container">
+        <div class="service-selection">
+            <h1> Maintenance Service Request </h1>
+            <form id="maintenanceForm">
+                <!-- <label for="carModel">Select Car Model:</label>
+                <select id="carModel" name="carModel">
+                    <option value="Toyota">Toyota</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Ford">Ford</option>
+                    
+                </select> -->
+    
+                <label for="carType">Select Vehical Type:</label>
+                <select id="carType" name="carType">
+                    <option value="Car">Car</option>
+                    <option value="Bike">Bike</option>
+                    <option value="Truck">Truck</option>
+                    <select>
+                    <label for="garage">Choose garage:</label>
+                    <select id="carType" name="garage">
+                        <option value="Car">AG Auto Workshop</option>
+                        <option value="Bike">Top Gear Auto Service BD Ltd</option>
+                        <option value="Truck">AutoXpress Ltd. </option>
+                    
+                 <select id="carType" name="bookingDate">
+                    <label for="bookingDate">Booking Date and Time:</label>
+                    <input type="datetime-local" id="bookingDate" name="bookingDate">
+                 
+                </select>
+
+                    <div class="maintenance-services">
+     <label for="maintenance-services">Services Offered:</label><br></br>
+     <label><input type="checkbox" name="maintenanceService[]" value="Oil change"> Oil Change</label>
+    <label><input type="checkbox" name="maintenanceService[]" value="Tire Rotation"> Tire Rotation</label>
+    <label><input type="checkbox" name="maintenanceService[]" value="Brake Inspection"> Brake Inspection</label>
+    <label><input type="checkbox" name="maintenanceService[]" value="Battery Inspection and Replacement"> Battery Inspection and Replacement</label>
+    <label><input type="checkbox" name="maintenanceService[]" value="Wheel Alignment"> Wheel Alignment</label>
+    <label><input type="checkbox" name="maintenanceService[]" value="Air Filter Replacement"> Air Filter Replacement</label>
+    <label><input type="checkbox" name="maintenanceService[]" value="Exhaust System Inspection"> Exhaust System Inspection</label>
+    <label><input type="checkbox" name="maintenanceService[]" value="Fuel System Cleaning"> Fuel System Cleaning</label>
+                
+                </div>
+                <section class="payment-section">
+                    <h2>Payment Method</h2>
+                    <div class="payment-options">
+                        <label for="payment">Select Payment Method:</label>
+                        <select id="payment" name="payment">
+                            <option value="credit_card">Credit Card</option>
+                            <option value="Bkash">Bkash</option>
+                            <option value="Nagad">Nagad</option>
+                            <option value="Offline Payment">Offline Payment</option>
+                        </select>
+                    </div>
+                </section>
+    
+                <label for="problemDescription">Problem Description:</label>
+                <textarea id="problemDescription" name="problemDescription" rows="3" placeholder="Describe your car's problem"></textarea>
+    
+                <button type="submit">
+                    <a href="receipt.html">Book Now </a></button>
+            </form>
+        </div>
+        <!-- <div class="image-container">
+            <img class="side-image" src="Maintenance.jpg" alt="Side Image">
+        </div> -->
+    
+    </div>
+    </body>
+    </html>

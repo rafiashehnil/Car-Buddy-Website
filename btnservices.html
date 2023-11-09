@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="userpage.css" />
+    <title>Service Page</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="logo.png" class="navbar-logo" alt="logo" />
+      <ul class="navbar-list">
+        <li><a href="userpage.html">Home</a></li>
+        <li><a href="btnservices.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        
+      </ul>
+
+      <div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span
+            >Sabrin
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-user"></i>
+              Edit Profile
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-sliders"></i>
+              Settings
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-circle-question"></i>
+              Help & Support
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Log out
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<!--service-->
+<section class="services" id="services">
+    <div class="heading">
+        <p>Best Services </p>
+        <h3>Explore Our Top Deals <br> From Top Rated Garage</h3>
+    </div>
+    <div class="services-container">
+        <div class="box">
+            <div class="box-img">
+                <img src="maintain.png" alt="">
+            </div>
+            &nbsp
+            <h3>Take Maintainance Services</h3>
+            <h5>Price range: Negotiable</h5>
+            &nbsp
+            <a href="maintainance-car.html" class="btn">Book Now</a>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="carwash.jpg" alt="">
+            </div>
+            &nbsp
+            <h3> Find best Vehical Washing Service Near You</h3>
+            <h5>Price range: Negotiable</h5>
+            
+            <a href="car-wash.html" class="btn">Book Now</a>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="paintcar.png" alt="">
+            </div>
+            &nbsp
+            <h3>Paint Your Car At A Resonable Cost</h3>
+            <h5>Price range: Negotiable</h5>
+            &nbsp
+            <a href="carpaint.html" class="btn">Book Now</a>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="servicecall.jpg" alt="">
+            </div>
+            &nbsp
+            <h3>Find Best Mechanics Near You</h3>
+            <h5>Price range: Negotiable</h5>
+            &nbsp
+            <a href="emergency.html" class="btn">Find</a>
+        </div>
+    </div>
+</section>
+<!--Newsletter-->
+<section class="newsletter">
+    <h2>Subscribe To NewsLetters</h2>
+    <div class="box">
+        <input type="text" placeholder="Enter your Email..">
+        <a href="$" class="btn">Subscribe</a>
+    </div>
+</section>
+</body>  
+<script src="main.js"></script>
+
+
+    </body>
+    </html>

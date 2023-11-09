@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Admin & Dashboard</title>
+  <link rel="stylesheet" href="main.css">
+  <!-- box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <i class='bx bx-car'></i>
+      <div class="logo_name">
+        Car Buddy
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">
+            Dashboard
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-circle'></i>
+          <span class="links_name">
+            Profile
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="garages.html">
+          <i class='bx bx-home'></i>
+          <span class="links_name">
+            Garages
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="customer.html">
+          <i class='bx bx-user'></i>
+          <span class="links_name">
+            Registered Customer
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-credit-card'></i>
+          <span class="links_name">
+            Sales
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-dollar' ></i>
+          <span class="links_name">
+            Earning
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-user-plus'></i>
+          <span class="links_name">
+            Visitors
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cart-alt'></i>
+          <span class="links_name">
+            Order
+          </span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="#">
+          <i class='bx bx-heart'></i>
+          <span class="links_name">
+            Saved
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">
+            Setting
+          </span>
+        </a>
+      </li>
+      <li class="login">
+        <a href="index.html">
+          <span class="links_name login_out">
+            Login Out
+          </span>
+          <i class='bx bx-log-out' id="log_out"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- End Sideber -->
+  <section class="home_section">
+    <div class="topbar">
+      <div class="toggle">
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <div class="search_wrapper">
+        <label>
+          <span>
+            <i class='bx bx-search'></i>
+          </span>
+          <input type="search" placeholder="Search...">
+        </label>
+      </div>
+      <div class="user_wrapper">
+        <img src="sabrin.jpg" alt="">
+      </div>
+    </div>
+    <!-- End Top Bar -->
+    <div class="card-boxes">
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">1k</div>
+          <div class="box_topic">Customers</div>
+        </div>
+        <i class='bx bx-user'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">150</div>
+          <div class="box_topic">Garage Owners</div>
+        </div>
+        <i class='bx bxs-home'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">100</div>
+          <div class="box_topic">Verified Mechanics</div>
+        </div>
+        <i class='bx bx-user'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">100k</div>
+          <div class="box_topic">Amount Receive</div>
+        </div>
+        <i class='bx bxs-receipt'></i>
+      </div>
+    </div>
+    <!-- End Card Boxs -->
+    <div class="details">
+      <div class="recent_project">
+        <div class="card_header">
+          <h2>Projects</h2>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td><b>Project Name</b></td>
+              <td><b>Garage Name</b></td>
+              <td><b>Status</b></td>
+              <td><b>Members</b></td>
+              <td><b>Payment Status</b></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Regular Maintainance (oil filter change)</td>
+              <td>Auto Mobiles</td>
+              <td>
+                <span class="badge bg_worning">
+                  Ongoing
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-2.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="avatar-3.jpg" alt="">
+                </span>
+                
+              </td>
+              <td> 
+                <span class="badge bg_worning">
+                    Pending
+                  </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Car Wash( Regular)</td>
+              <td>Navana</td>
+              <td>
+                <span class="badge bg_seccuss">
+                  Done
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="avatar-2.jpg" alt="">
+                </span>
+                <td> 
+                    <span class="badge bg_seccuss">
+                        Paid
+                      </span>
+                  </td>
+              </td>
+            </tr>
+            <tr>
+              <td>Car Wash(Premium)</td>
+              <td>Tasin Garage ltd</td>
+              <td>
+                <span class="badge bg_info">
+                  Almost Done
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-4.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="avatar-5.jpg" alt="">
+                
+              </td>
+              <td> 
+                <span class="badge bg_worning">
+                    Pending
+                  </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Emergency Maintainance (Bashundhara)</td>
+              <td>YourCar Ltd</td>
+              <td>
+                <span class="badge bg_worning">
+                  Ongoing
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-3.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="avatar-4.jpg" alt="">
+                </span>
+                
+                <span class="img_group">
+                  <span class="initial">+1</span>
+                </span>
+                <td> 
+                    <span class="badge bg_worning">
+                        Pending
+                      </span>
+                  </td>
+              </td>
+            </tr>
+            <tr>
+              <td>Maintainance (Air filter change)</td>
+              <td>Auto-mobiles</td>
+              <td>
+                <span class="badge bg_danger">
+                  Booking Error
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-2.jpg" alt="">
+                </span>
+              </td>
+              <td>
+                <span class="badge bg_danger">
+                  Not applicable
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>Bike Wash (Regular)</td>
+              <td>Grand theft Auto</td>
+              <td>
+                <span class="badge bg_info">
+                  Almost Done
+                </span>
+              </td>
+              <td>
+                <span class="img_group">
+                  <img src="avatar-5.jpg" alt="">
+                </span>
+                <span class="img_group">
+                  <img src="avatar-2.jpg" alt="">
+                </span>
+              </td>
+              <td> 
+                <span class="badge bg_worning">
+                    Pending
+                  </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="recent_customers">
+        <div class="card_header">
+          <h2>New Bookings</h2>
+        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-2.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Willams Harris</h4>
+                <p>
+                  <i class='bx bx-check'></i>
+                  Auto Mobiles<br> 
+                  Date:02 Sept,23 ;06:30pm<br>
+
+                  <span class="badge bg_seccuss">
+                    Booked successfully
+               </span>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-3.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Vanessa Tucker</h4>
+                <p><i class='bx bx-check'></i>
+                  Navana<br> 
+                  Date:03 Sept,23 ;06:00pm<br>
+                  
+                  <span class="badge bg_seccuss">
+                    Booked successfully
+               </span>
+              </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-4.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Sharon Lessma</h4>
+                <p><i class='bx bx-check'></i>
+                  Auto Mobiles<br> 
+                  Date:02 Sept,23 ;10:30am<br>
+                  
+                  <span class="badge bg_seccuss">
+                    Booked successfully
+               </span></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-5.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Christina Mason</h4>
+                <p><i class='bx bx-check'></i>
+                  Tasin autoMobiles<br> 
+                  Date:06 Sept,23 ;06:30pm<br>
+                  
+                  <span class="badge bg_seccuss">
+                    Booked successfully
+               </span></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-2.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Willams Harris</h4>
+                <p><i class='bx bx-check'></i>
+                  Auto Mobiles<br> 
+                  Date:02 Sept,23 ;03:30pm<br>
+                  
+                  <span class="badge bg_seccuss">
+                    Booked successfully
+               </span></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-3.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h4>Sharon Lessma</h4>
+                <p><i class='bx bx-check'></i>
+                  Auto Mobiles<br> 
+                  Date:02 Sept,23 ;06:30pm<br>
+                  
+                  <span class="badge bg_seccuss">
+                    Booked successfully
+               </span></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("open");
+      // call function
+      changeBtn();
+    });
+
+    function changeBtn() {
+      if(sidebar.classList.contains("open")) {
+        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+      } else {
+        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+      }
+    }
+  </script>
+</body>
+</html>

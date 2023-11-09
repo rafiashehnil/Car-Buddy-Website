@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="userpage.css" />
+    <title>User home Page</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="logo.png" class="navbar-logo" alt="logo" />
+      <ul class="navbar-list">
+        <li><a href="userpage.html">Home</a></li>
+        <li><a href="btnservices.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="index.html">Logout</a></li>
+        
+      </ul>
+
+      <div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span
+            >Sabrin
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-user"></i>
+              Edit Profile
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-sliders"></i>
+              Settings
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-circle-question"></i>
+              Help & Support
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="signup.html">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Log out
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="home" id="home">
+      <div class="text">
+          <h1><span> <i>Hassle</i></span> <i>To Find<br> Best Garages For Your Car?</i></h1>
+          <h2><i>Introducing Your Car's Bestfriend..</i></h2> 
+         <p>We help you to find the right care for your car in times of need.
+              Our network with wide range of garages keeps your travel partner safe and well.<br> All solutions in a single stop.</p>
+              
+          <div class="app-store">
+              <img src="google.png" alt="">
+          </div>
+  
+      </div>
+  </section>
+  
+  <!--Newsletter-->
+  <section class="newsletter">
+      <h2>Subscribe To NewsLetters</h2>
+      <div class="box">
+          <input type="text" placeholder="Enter your Email..">
+          <a href="$" class="btn">Subscribe</a>
+      </div>
+  </section>
+  
+    </body>  
+    <script src="main.js"></script>
+
+  </body>
+</html>

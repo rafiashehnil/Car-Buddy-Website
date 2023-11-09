@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="userpage.css" />
+    <title>Emergency</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="logo.png" class="navbar-logo" alt="logo" />
+      <ul class="navbar-list">
+        <li><a href="userpage.html">Home</a></li>
+        <li><a href="btnservices.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        
+      </ul>
+
+      <div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span
+            >Sabrin
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-user"></i>
+              Edit Profile
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-solid fa-sliders"></i>
+              Settings
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="#">
+              <i class="fa-regular fa-circle-question"></i>
+              Help & Support
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a href="login page.html">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Log out
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="container">
+        <h1>Emergency Car Repair</h1>
+        <form action="#" method="post">
+            <label for="carModel">Select Your Vehical:</label>
+            <select id="carModel" name="carModel">
+                <option value="privatecar">Private Car</option>
+                <option value="Bike">Bike</option>
+                <option value="Large">Large Vehical</option>
+                
+            </select>
+
+            <label for="location">Enter Your Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter your location">
+
+            <button type="submit">Connect with Nearest Garage</button>
+        </form>
+    </div>
+    <!-- <div class="image-container"> -->
+        <!-- <img class="side-image" src="location.jpg" alt="Side Image"> -->
+    <!-- </div> -->
+    <div class="google-map">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14455.10399923989!2d90.43558841093422!3d23.812877946605397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c916d4ce848b%3A0x3c0079a83380f515!2sBashundhara%20Site%20Office!5e0!3m2!1sen!2sbd!4v1691948928402!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        <img src="map.png" alt="">
+    </div>
+
+   
+    <script src="main.js"></script>
+
+</body>
+</html>

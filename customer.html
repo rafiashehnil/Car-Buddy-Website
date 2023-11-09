@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Information</title>
+  <link rel="stylesheet" href="garage.css">
+  <!-- box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <i class='bx bx-car'></i>
+      <div class="logo_name">
+        Car Buddy
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a href="admin.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">
+            Dashboard
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-circle'></i>
+          <span class="links_name">
+            Profile
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="garages.html">
+          <i class='bx bx-home'></i>
+          <span class="links_name">
+            Garages
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="customer.html">
+          <i class='bx bx-user'></i>
+          <span class="links_name">
+            Registered Customer
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-credit-card'></i>
+          <span class="links_name">
+            Sales
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-dollar' ></i>
+          <span class="links_name">
+            Earning
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-user-plus'></i>
+          <span class="links_name">
+            Visitors
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cart-alt'></i>
+          <span class="links_name">
+            Order
+          </span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="#">
+          <i class='bx bx-heart'></i>
+          <span class="links_name">
+            Saved
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">
+            Setting
+          </span>
+        </a>
+      </li>
+      <li class="login">
+        <a href="index.html">
+          <span class="links_name login_out">
+            Login Out
+          </span>
+          <i class='bx bx-log-out' id="log_out"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- End Sideber -->
+  <section class="home_section">
+    <div class="topbar">
+      <div class="toggle">
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <div class="search_wrapper">
+        <label>
+          <span>
+            <i class='bx bx-search'></i>
+          </span>
+          <input type="search" placeholder="Search...">
+        </label>
+      </div>
+      <div class="user_wrapper">
+        <img src="user.jpg" alt="">
+      </div>
+    </div>
+    <!-- End Top Bar -->
+    <div class="card-boxes">
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">1k</div>
+          <div class="box_topic">Customers</div>
+        </div>
+        <i class='bx bx-user'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">150</div>
+          <div class="box_topic">Garage Owners</div>
+        </div>
+        <i class='bx bxs-home'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">100</div>
+          <div class="box_topic">Verified Mechanics</div>
+        </div>
+        <i class='bx bx-user'></i>
+      </div>
+      <div class="box">
+        <div class="right_side">
+          <div class="numbers">100k</div>
+          <div class="box_topic">Amount Receive</div>
+        </div>
+        <i class='bx bxs-receipt'></i>
+      </div>
+    </div>
+    <!-- End Card Boxs -->
+    <div class="details">
+      <div class="recent_project">
+        <div class="card_header">
+          <h2>Enlisted Customers</h2>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td><b>Customer Picture</b></td>
+              <td><b>Name</b></td>
+              <td><b>Email</b></td>
+              <td><b>Address</b></td>
+              <td><b>Service Received</b></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="zabir.jpg" alt="">
+                </div>
+              </td>
+                
+                <!-- <span>
+                    <img src="zabir.jpg" alt="">
+                </span> -->
+              <td>Zabir Chowdhury</td>
+              <td>
+                <span class="badge bg_worning">
+                  zabir123@gmail.com
+                </span>
+              </td>
+              <td>
+                House 13, Section 2 <br> Pallabi, Mirpur, Dhaka
+              </td>
+              <td> 
+                <i class='bx bx-check' ></i>
+                10 services<br> &nbsp;
+                <span class="badge bg_seccuss">
+                    See Details
+                </span>
+                  
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="info_img">
+                        <img src="sakib.jpg" alt="">
+                      </div>
+                  </td>
+                
+              <td>Sakib Mahmud</td>
+              <td>
+                <span class="badge bg_seccuss">
+                  sakib123@gmail.com
+                </span>
+              </td>
+              <td>
+                House 46, Road 13C, Section 3<br> Dhanmondi,Dhaka
+                <td> 
+                    <i class='bx bx-check' ></i>
+                1 services<br> &nbsp;
+                <span class="badge bg_seccuss">
+                    See Details
+                </span>
+                    
+                  </td>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="info_img">
+                        <img src="raisa.jpg" alt="">
+                      </div>
+                  </td>
+              <td>Raisa Rahman</td>
+              <td>
+                <span class="badge bg_seccuss">
+                    raisa123@gmail.com
+                  </span>
+                
+              </td>
+              <td>House 2, Section 7 <br> Mirpur 2, Dhaka</td>
+              <td> 
+                <i class='bx bx-check' ></i>
+                6 services<br> &nbsp;
+                <span class="badge bg_seccuss">
+                    See Details
+                </span>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="info_img">
+                        <img src="sabrin.jpg" alt="">
+                      </div>
+                  </td>
+              <td>Sabrin Morshed </td>
+              <td>
+                <span class="badge bg_worning">
+                  sabrin1234@gmail.com
+                </span>
+              </td>
+              <td>House 08 ,road 13<br> Bashundhara,Dhaka </td>
+                
+                <td> 
+                    <i class='bx bx-check' ></i>
+                8 services<br> &nbsp;
+                <span class="badge bg_seccuss">
+                    See Details
+                </span>
+                  </td>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="info_img">
+                        <img src="safi.jpg" alt="">
+                      </div>
+                  </td>
+              <td>Safi Mahmud</td>
+              <td>
+                <span class="badge bg_seccuss">
+                  safi1234@gmail.com
+                </span>
+              </td>
+              <td>Block G, Road 13<br> Mohammadpur, Dhaka</td>
+              <td>
+                <i class='bx bx-check' ></i>
+                5 services<br> &nbsp;
+                <span class="badge bg_seccuss">
+                    See Details
+                </span>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="info_img">
+                        <img src="anika.jpg" alt="">
+                      </div>
+                  </td>
+              <td>Anika Tasnim</td>
+              <td>
+                <span class="badge bg_info">
+                 tasnim12345@gmail.com
+                </span>
+              </td>
+              <td>
+                435 C, Road 45 <br> Tongi Bazar, Dhaka.
+              </td>
+              <td> 
+                <i class='bx bx-check' ></i>
+                8 services<br> &nbsp;
+                <span class="badge bg_seccuss">
+                    See Details
+                </span>
+                 
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="recent_customers">
+        <div class="card_header">
+          <h2>New Customers</h2>
+        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-2.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h3>Willams Harris</h3>
+                <p>Willams@gmail.com</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-3.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h3>Vanessa Tucker</h3>
+                <p>Vanessa@gmail.com</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-4.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h3>Sharon Lessma</h3>
+                <p>Sharon@gmail.com</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-5.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h3>Christina Mason</h3>
+                <p>Christina@gmail.com</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-2.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h3>Willams Harris</h3>
+                <p>Willams@gmail.com</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="info_img">
+                  <img src="avatar-3.jpg" alt="">
+                </div>
+              </td>
+              <td>
+                <h3>Sharon Lessma</h3>
+                <p>Willams@gmail.com</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("open");
+      // call function
+      changeBtn();
+    });
+
+    function changeBtn() {
+      if(sidebar.classList.contains("open")) {
+        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+      } else {
+        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+      }
+    }
+  </script>
+</body>
+</html>

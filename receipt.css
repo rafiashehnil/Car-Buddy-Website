@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: #5B9A8B;
+
+}
+
+.container {
+    max-width: 800px;
+    margin:0 auto;
+    padding: 70px;
+    margin-top: 28px;
+}
+
+.receipt {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-color:aquamarine;
+
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.action-button {
+    flex: 1;
+    padding: 10px 0;
+    font-size: 18px;
+    color:#ffffff;
+    background-color:#54bea7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.action-button:last-child {
+    margin-right: 0;
+}
+
+.action-button:hover {
+    background-color: #036203;
+}
